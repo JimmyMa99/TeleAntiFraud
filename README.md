@@ -1,4 +1,3 @@
-
 # TeleAntiFraud-28k
 
 <p align="center">
@@ -98,6 +97,20 @@ To synthesize speech from the collected text:
 2. Addressing critical challenges in data privacy and scenario diversity
 3. Providing high-quality training data for telecom fraud detection
 4. Open-sourcing data processing tools to enable community collaboration
+
+## Acknowledgements
+
+We would like to express our sincere gratitude to all the organizations and individuals who have provided invaluable support throughout this project:
+
+- [**China Mobile Internet Company (中移互联网)**](https://cmic.chinamobile.com/pages/pcIndex) - For their industry expertise and technical guidance
+- [**Intern Community (书生社区)**](https://github.com/InternLM) - For their open-source ecosystem support and collaboration
+- [**ModelScope Community (魔搭社区)**](https://github.com/modelscope) - For their platform support and community resources
+- [**SmartFlowAI Community (机智流社区)**](https://github.com/SmartFlowAI) - For their technical contributions and collaborative efforts
+- [**Control-derek**](https://github.com/Control-derek) - For his technical expertise and valuable contributions
+- [**vansin**](https://github.com/vansin) - For his dedicated support and assistance
+- [**Jintao-Huang**](https://github.com/Jintao-Huang) - For his valuable suggestions and contributions
+
+Their contributions have been instrumental in making this project a success and advancing the field of telecom fraud detection research.
 
 ## Citation
 
