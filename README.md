@@ -16,10 +16,10 @@ TeleAntiFraud-28k is the first open-source audio-text slow-thinking dataset spec
 
 ## Dataset Overview
 
-- **Total Samples**: 28,511 rigorously processed speech-text pairs
-- **Total Audio Duration**: 307 hours
-- **Unique Feature**: Detailed annotations for fraud reasoning
-- **Task Categories**: Scenario classification, fraud detection, fraud type classification
+- **Total Samples**: 28,511 rigorously processed speech-text pairs.
+- **Total Audio Duration**: 307 hours.
+- **Unique Feature**: Detailed annotations for fraud reasoning.
+- **Task Categories**: Scenario classification, fraud detection, fraud type classification.
 
 ## Dataset Construction Strategies
 
