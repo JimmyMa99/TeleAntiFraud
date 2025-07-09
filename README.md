@@ -1,7 +1,7 @@
 # TeleAntiFraud-28k 📞🛡️
 
 <p align="center">
-  <a href="https://modelscope.cn/datasets/YourOrg/TeleAntiFraud-28k">
+  <a href="[https://modelscope.cn/datasets/YourOrg/TeleAntiFraud-28k](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k)">
     <img alt="ModelScope Dataset" src="https://img.shields.io/badge/ModelScope-Dataset-orange.svg"/>
   </a>
   <a href="https://modelscope.cn/models/YourOrg/TeleAntiFraud-28k">
