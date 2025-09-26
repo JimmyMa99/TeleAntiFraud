@@ -4,7 +4,7 @@
   <a href="https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k">
     <img alt="ModelScope Dataset" src="https://img.shields.io/badge/ModelScope-Dataset-orange.svg"/>
   </a>
-  <a href="https://modelscope.cn/models/YourOrg/TeleAntiFraud-28k">
+  <a href="https://www.modelscope.cn/models/JimmyMa99/AntiFraud-SFT">
     <img alt="ModelScope Model" src="https://img.shields.io/badge/ModelScope-Models-green.svg"/>
   </a>
   <a href="https://arxiv.org/abs/2503.24115">
@@ -17,6 +17,8 @@
 
 TeleAntiFraud-28k is the first open-source audio-text slow-thinking dataset specifically designed for automated telecom fraud analysis. This dataset integrates audio signals with reasoning-oriented textual analysis, providing high-quality multimodal training data for telecom fraud detection research. 🔍💡
 
+![main_framework](img/main_framework.png)
+
 ## 📊 Dataset Overview
 
 - **Total Samples**: 28,511 rigorously processed speech-text pairs 📋
@@ -24,24 +26,32 @@ TeleAntiFraud-28k is the first open-source audio-text slow-thinking dataset spec
 - **Unique Feature**: Detailed annotations for fraud reasoning 🧠
 - **Task Categories**: Scenario classification, fraud detection, fraud type classification 🎯
 
+
 ## 🏗️ Dataset Construction Strategies
+
+
+![dataflow](img/dataflow.png)
 
 ### 1. 🔒 Privacy-preserved Text-Truth Sample Generation
 - Using ASR-transcribed call recordings (with anonymized original audio)
 - Ensuring real-world consistency through TTS model regeneration
 - Strict adherence to privacy protection standards
-
 ### 2. 🚀 Semantic Enhancement
 - LLM-based self-instruction sampling on authentic ASR outputs
 - Expanding scenario coverage to improve model generalization
 - Enriching the diversity of conversational contexts
 
 ### 3. 🤖 Multi-agent Adversarial Synthesis
+
+![multiagent](img/multiagent.png)
+
 - Simulation of emerging fraud tactics
 - Generation through predefined communication scenarios and fraud typologies
 - Enhancing dataset adaptability to new fraud techniques
 
 ## 🎯 TeleAntiFraud-Bench
+
+![Telebench](img/Telebench.png)
 
 We have constructed TeleAntiFraud-Bench, a standardized evaluation benchmark comprising proportionally sampled instances from TeleAntiFraud-28k, to facilitate systematic testing of model performance and reasoning capabilities on telecom fraud detection tasks. 📐✅
 
