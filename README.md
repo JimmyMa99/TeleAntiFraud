@@ -10,10 +10,16 @@
   <a href="https://arxiv.org/abs/2503.24115">
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2503.24115-b31b1b.svg"/>
   </a>
+  <a href="https://arxiv.org/abs/2601.01392">
+    <img alt="SAFE-QAQ arXiv" src="https://img.shields.io/badge/arXiv-2601.01392-b31b1b.svg"/>
+  </a>
 </p>
 
 ## 🎉 News
-**🎊 Our paper has been accepted by ACM MM 2025!** 
+
+- **[2026.01]** [**SAFE-QAQ: End-to-End Slow-Thinking Audio-Text Fraud Detection via Reinforcement Learning**](https://arxiv.org/abs/2601.01392) has been accepted by ACL 2026! 🎊
+- **[2025]** **TeleAntiFraud-28k: An Audio-Text Slow-Thinking Dataset for Telecom Fraud Detection** has been accepted by ACM MM 2025! 🎊
+- **[Dataset]** TeleAntiFraud-28k is available on [ModelScope](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k). 📚
 
 TeleAntiFraud-28k is the first open-source audio-text slow-thinking dataset specifically designed for automated telecom fraud analysis. This dataset integrates audio signals with reasoning-oriented textual analysis, providing high-quality multimodal training data for telecom fraud detection research. 🔍💡
 
@@ -54,6 +60,15 @@ TeleAntiFraud-28k is the first open-source audio-text slow-thinking dataset spec
 ![Telebench](img/Telebench.png)
 
 We have constructed TeleAntiFraud-Bench, a standardized evaluation benchmark comprising proportionally sampled instances from TeleAntiFraud-28k, to facilitate systematic testing of model performance and reasoning capabilities on telecom fraud detection tasks. 📐✅
+
+### Evaluation Utilities
+
+We provide sanitized evaluation scripts in [`evaluation/`](evaluation/README.md), including:
+
+- classification metrics for scenario classification, fraud detection, and fraud type classification
+- preparation of model outputs for reasoning assessment
+- an OpenAI-compatible LM-as-judge runner
+- the probability-based reasoning-quality judging prompt
 
 ## 🤖 Model Contribution
 
@@ -99,8 +114,9 @@ To synthesize speech from the collected text: 🔊
 
 ## 🌟 Open-Source Resources
 
-- TeleAntiFraud-28k dataset 📚
+- [TeleAntiFraud-28k dataset](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k) 📚
 - TeleAntiFraud-Bench evaluation benchmark 🏆
+- [Evaluation and LM-as-judge utilities](evaluation/README.md) ⚖️
 - Data processing framework (supporting community-driven dataset expansion) 🔧
 - TeleAntiFraud-Qwen2-Audio SFT model 🤖
 
@@ -133,5 +149,13 @@ Their contributions have been instrumental in making this project a success and 
   author={Zhiming Ma and Peidong Wang and Minhua Huang and Jingpeng Wang and Kai Wu and Xiangzhao Lv and Yachun Pang and Yin Yang and Wenjie Tang and Yuchen Kang},
   year={2025},
   url={https://api.semanticscholar.org/CorpusID:277467703}
+}
+
+@article{Wang2026SAFEQAQ,
+  title={SAFE-QAQ: End-to-End Slow-Thinking Audio-Text Fraud Detection via Reinforcement Learning},
+  author={Peidong Wang and Zhiming Ma and Xin Dai and Yongkang Liu and Shi Feng and Xiaocui Yang and Wenxing Hu and Zhihao Wang and Mingjun Pan and Li Yuan and Daling Wang},
+  journal={arXiv preprint arXiv:2601.01392},
+  year={2026},
+  url={https://arxiv.org/abs/2601.01392}
 }
 ```
