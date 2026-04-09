@@ -17,7 +17,7 @@
 
 ## 🎉 News
 
-- **[2026.01]** [**SAFE-QAQ: End-to-End Slow-Thinking Audio-Text Fraud Detection via Reinforcement Learning**](https://arxiv.org/abs/2601.01392) has been accepted by ACL 2026! 🎊
+- **[2026.04]** [**SAFE-QAQ: End-to-End Slow-Thinking Audio-Text Fraud Detection via Reinforcement Learning**](https://arxiv.org/abs/2601.01392) has been accepted by ACL 2026! 🎊
 - **[2025]** **TeleAntiFraud-28k: An Audio-Text Slow-Thinking Dataset for Telecom Fraud Detection** has been accepted by ACM MM 2025! 🎊
 - **[Dataset]** TeleAntiFraud-28k is available on [ModelScope](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k). 📚
 
