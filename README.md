@@ -84,6 +84,8 @@ We provide sanitized evaluation scripts in [`evaluation/`](evaluation/README.md)
 - an OpenAI-compatible LM-as-judge runner
 - the probability-based reasoning-quality judging prompt
 
+The reinforcement-learning follow-up project SAFE-QAQ is available at [Control-derek/SAFE-QAQ](https://github.com/Control-derek/SAFE-QAQ).
+
 ## 🤖 Model Contribution
 
 We contribute a production-optimized supervised fine-tuning (SFT) model based on Qwen2-Audio, trained on the TeleAntiFraud training set. 🎨⚡
@@ -130,6 +132,7 @@ To synthesize speech from the collected text: 🔊
 
 - [TeleAntiFraud public dataset release (Hugging Face)](https://huggingface.co/datasets/JimmyMa99/TeleAntiFraud) 🤗
 - [TeleAntiFraud public dataset release (ModelScope)](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud) 📚
+- [SAFE-QAQ code repository](https://github.com/Control-derek/SAFE-QAQ) 🧪
 - [TeleAntiFraud-28k dataset](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k) 📚
 - TeleAntiFraud-Bench evaluation benchmark 🏆
 - [Evaluation and LM-as-judge utilities](evaluation/README.md) ⚖️
