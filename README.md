@@ -162,19 +162,19 @@ Their contributions have been instrumental in making this project a success and 
 
 ## 📄 Citation
 
-```
-@inproceedings{Ma2025TeleAntiFraud28kAA,
+``` 
+@inproceedings{ma2025teleantifraud,
   title={TeleAntiFraud-28k: An Audio-Text Slow-Thinking Dataset for Telecom Fraud Detection},
-  author={Zhiming Ma and Peidong Wang and Minhua Huang and Jingpeng Wang and Kai Wu and Xiangzhao Lv and Yachun Pang and Yin Yang and Wenjie Tang and Yuchen Kang},
-  year={2025},
-  url={https://api.semanticscholar.org/CorpusID:277467703}
+  author={Ma, Zhiming and Wang, Peidong and Huang, Minhua and Wang, Jinpeng and Wu, Kai and Lv, Xiangzhao and Pang, Yachun and Yang, Yin and Tang, Wenjie and Kang, Yuchen},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={5853--5862},
+  year={2025}
 }
 
-@article{Wang2026SAFEQAQ,
+@article{wang2026safe,
   title={SAFE-QAQ: End-to-End Slow-Thinking Audio-Text Fraud Detection via Reinforcement Learning},
-  author={Peidong Wang and Zhiming Ma and Xin Dai and Yongkang Liu and Shi Feng and Xiaocui Yang and Wenxing Hu and Zhihao Wang and Mingjun Pan and Li Yuan and Daling Wang},
+  author={Wang, Peidong and Ma, Zhiming and Dai, Xin and Liu, Yongkang and Feng, Shi and Yang, Xiaocui and Hu, Wenxing and Wang, Zhihao and Pan, Mingjun and Yuan, Li and others},
   journal={arXiv preprint arXiv:2601.01392},
-  year={2026},
-  url={https://arxiv.org/abs/2601.01392}
+  year={2026}
 }
 ```
