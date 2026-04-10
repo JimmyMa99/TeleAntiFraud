@@ -1,6 +1,9 @@
 # TeleAntiFraud-28k 📞🛡️
 
 <p align="center">
+  <a href="https://huggingface.co/datasets/JimmyMa99/TeleAntiFraud">
+    <img alt="Hugging Face Dataset" src="https://img.shields.io/badge/HuggingFace-Dataset-yellow.svg"/>
+  </a>
   <a href="https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k">
     <img alt="ModelScope Dataset" src="https://img.shields.io/badge/ModelScope-Dataset-orange.svg"/>
   </a>
@@ -19,6 +22,7 @@
 
 - **[2026.04]** [**SAFE-QAQ: End-to-End Slow-Thinking Audio-Text Fraud Detection via Reinforcement Learning**](https://arxiv.org/abs/2601.01392) has been accepted by ACL 2026! 🎊
 - **[2025]** **TeleAntiFraud-28k: An Audio-Text Slow-Thinking Dataset for Telecom Fraud Detection** has been accepted by ACM MM 2025! 🎊
+- **[2026.04]** A sanitized public release with dataset card, audio archives, and preview samples is now available on [Hugging Face](https://huggingface.co/datasets/JimmyMa99/TeleAntiFraud) and [ModelScope](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud). 📚
 - **[Dataset]** TeleAntiFraud-28k is available on [ModelScope](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k). 📚
 
 TeleAntiFraud-28k is the first open-source audio-text slow-thinking dataset specifically designed for automated telecom fraud analysis. This dataset integrates audio signals with reasoning-oriented textual analysis, providing high-quality multimodal training data for telecom fraud detection research. 🔍💡
@@ -31,6 +35,16 @@ TeleAntiFraud-28k is the first open-source audio-text slow-thinking dataset spec
 - **Total Audio Duration**: 307 hours ⏱️
 - **Unique Feature**: Detailed annotations for fraud reasoning 🧠
 - **Task Categories**: Scenario classification, fraud detection, fraud type classification 🎯
+
+### Public Dataset Release
+
+We provide a sanitized public release for direct download and benchmarking:
+
+- [Hugging Face dataset page](https://huggingface.co/datasets/JimmyMa99/TeleAntiFraud)
+- [ModelScope dataset page](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud)
+- packaged `binary_classification.zip`, `sft.zip`, and `audio.zip`
+- preview audio samples directly playable on the dataset page
+- normalized relative audio paths without machine-specific absolute paths
 
 
 ## 🏗️ Dataset Construction Strategies
@@ -114,6 +128,8 @@ To synthesize speech from the collected text: 🔊
 
 ## 🌟 Open-Source Resources
 
+- [TeleAntiFraud public dataset release (Hugging Face)](https://huggingface.co/datasets/JimmyMa99/TeleAntiFraud) 🤗
+- [TeleAntiFraud public dataset release (ModelScope)](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud) 📚
 - [TeleAntiFraud-28k dataset](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k) 📚
 - TeleAntiFraud-Bench evaluation benchmark 🏆
 - [Evaluation and LM-as-judge utilities](evaluation/README.md) ⚖️
