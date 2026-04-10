@@ -84,7 +84,7 @@ We provide sanitized evaluation scripts in [`evaluation/`](evaluation/README.md)
 - an OpenAI-compatible LM-as-judge runner
 - the probability-based reasoning-quality judging prompt
 
-The reinforcement-learning follow-up project SAFE-QAQ is available at [Control-derek/SAFE-QAQ](https://github.com/Control-derek/SAFE-QAQ).
+The ACL 2026 paper repository SAFE-QAQ, which reports results on TeleAntiFraud, is available at [Control-derek/SAFE-QAQ](https://github.com/Control-derek/SAFE-QAQ).
 
 ## 🤖 Model Contribution
 
