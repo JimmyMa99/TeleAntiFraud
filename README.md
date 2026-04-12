@@ -7,9 +7,18 @@
   <a href="https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k">
     <img alt="ModelScope Dataset" src="https://img.shields.io/badge/ModelScope-Dataset-orange.svg"/>
   </a>
+</p>
+
+<p align="center">
+  <a href="https://huggingface.co/JimmyMa99/AntiFraud-SFT">
+    <img alt="Hugging Face Model" src="https://img.shields.io/badge/HuggingFace-Model-yellow.svg"/>
+  </a>
   <a href="https://www.modelscope.cn/models/JimmyMa99/AntiFraud-SFT">
     <img alt="ModelScope Model" src="https://img.shields.io/badge/ModelScope-Models-green.svg"/>
   </a>
+</p>
+
+<p align="center">
   <a href="https://arxiv.org/abs/2503.24115">
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2503.24115-b31b1b.svg"/>
   </a>
@@ -90,6 +99,13 @@ The ACL 2026 paper repository SAFE-QAQ, which reports results on TeleAntiFraud, 
 
 We contribute a production-optimized supervised fine-tuning (SFT) model based on Qwen2-Audio, trained on the TeleAntiFraud training set. 🎨⚡
 
+### Released Model
+
+- [Hugging Face model: JimmyMa99/AntiFraud-SFT](https://huggingface.co/JimmyMa99/AntiFraud-SFT)
+- [ModelScope model: JimmyMa99/AntiFraud-SFT](https://www.modelscope.cn/models/JimmyMa99/AntiFraud-SFT)
+- base model: `Qwen/Qwen2-Audio-7B-Instruct`
+- model type: supervised fine-tuning for audio-text telecom fraud detection
+
 ## 📝 Examples
 
 Explore our dataset examples to better understand the telecom fraud detection capabilities: 👀
@@ -132,6 +148,8 @@ To synthesize speech from the collected text: 🔊
 
 - [TeleAntiFraud public dataset release (Hugging Face)](https://huggingface.co/datasets/JimmyMa99/TeleAntiFraud) 🤗
 - [TeleAntiFraud public dataset release (ModelScope)](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud) 📚
+- [AntiFraud-SFT model (Hugging Face)](https://huggingface.co/JimmyMa99/AntiFraud-SFT) 🤖
+- [AntiFraud-SFT model (ModelScope)](https://www.modelscope.cn/models/JimmyMa99/AntiFraud-SFT) 🤖
 - [SAFE-QAQ code repository](https://github.com/Control-derek/SAFE-QAQ) 🧪
 - [TeleAntiFraud-28k dataset](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud-28k) 📚
 - TeleAntiFraud-Bench evaluation benchmark 🏆
