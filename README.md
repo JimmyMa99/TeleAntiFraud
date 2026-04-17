@@ -29,6 +29,7 @@
 
 ## 🎉 News
 
+- **[2026.04]** We launched the **TeleAntiFraud open-source community** for telecom anti-fraud research: https://teleantifraud.github.io/ 🌐
 - **[2026.04]** [**SAFE-QAQ: End-to-End Slow-Thinking Audio-Text Fraud Detection via Reinforcement Learning**](https://arxiv.org/abs/2601.01392) has been accepted by ACL 2026! 🎊
 - **[2025]** **TeleAntiFraud-28k: An Audio-Text Slow-Thinking Dataset for Telecom Fraud Detection** has been accepted by ACM MM 2025! 🎊
 - **[2026.04]** A sanitized public release with dataset card, audio archives, and preview samples is now available on [Hugging Face](https://huggingface.co/datasets/JimmyMa99/TeleAntiFraud) and [ModelScope](https://www.modelscope.cn/datasets/JimmyMa99/TeleAntiFraud). 📚
